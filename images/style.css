@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    background-image: url("blue_bg.png") ;
+    position: relative;
+    
+    background-size: 1500px 550px ;
+    background-repeat: no-repeat;
+    height: 100vh;
+   direction:ltr;
+}
+
+nav {
+    margin: 50px;
+    padding-left: 35px;
+   position :absolute;
+   top:1%;
+   left:10%
+   
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+   .active {
+    margin-top: 5px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #666565;
+    font-size: 15px;
+    border-radius: 10%;
+    border-bottom: 2px solid #f218e0;
+  }
+    
+  li a {
+    margin-top: 5px;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #666565;
+    font-size: 15px;
+  }
+  
+  li.right {
+    float: right;
+  }
+  
+.div1 img{
+    margin-top: 53px; 
+   padding-left: 125px;
+  }
+
+.div2{
+  position: absolute;
+  top:7%;
+  right: 10%;
+}
+
+.div2 p{
+  position: absolute;
+  top: 22%;
+  right: 35%;
+  color: #666565;
+}
+
+.div3{
+  position: absolute;
+  top:35%;
+  left:15%; 
+ 
+}
+
+.div3 h1{
+  font-weight: bold;
+  color: rgb(99, 99, 99);
+ font-size: 35px;
+ 
+}
+
+.div3 b{
+color: rgb(154, 9, 154);
+}
+
+.div3 p{
+color: rgb(120, 133, 146);
+font-size:15px ;
+
+}
+
+.div4{
+  position: relative;
+}
+
+.div4 .img1{
+  position: absolute;
+  left: 55%;
+  top: -30px;
+}
+
+.div4 .img2{
+  position:absolute;
+  left: 65%;
+  top: 10px;
+}
+
+.div4 .img3{
+  position: absolute;
+  left: 60%;
+  top: 212px;
+  opacity: 0.95;
+}
+
+.div5{
+  position: absolute;
+  top: 59%;
+}
+
+.middle{
+  position: relative;
+  height: 130vh;
+}
+
+.div6 img{
+  position: absolute;
+  top: -70px;
+  left:20%;
+}
+
+.div7 img{
+  position:absolute;
+  left:16%;
+  top: 3px;
+}
+
+.div7 .hh{
+  position: absolute;
+  left: 240px;
+  top:115px;
+  color: #666565;
+}
+
+.div7 .p-p{
+  position: absolute;
+  left: 215px;
+  top:137px;
+  color: #878686;
+}
+
+.div7 .pp{
+  position: absolute;
+  left: 200px;
+  top:155px;
+  color: #878686;
+}
+
+.div8 img{
+  position: absolute;
+  left:43%;
+  top: 140px;
+}
+
+.div8 .hh{
+  position: absolute;
+  left: 640px;
+  top:245px;
+  color: #666565;
+}
+
+.div8 .pp{
+  position: absolute;
+  left: 640px;
+  top:288px;
+  color: #878686;
+}
+
+.div8 .p-p{
+  position: absolute;
+  left: 600px;
+  top:267px;
+  color: #878686;
+}
+
+.div9 img{
+position: absolute;
+left: 67% ;
+top:390px;
+}
+
+.div9 .hh{
+  position: absolute;
+  left: 1030px;
+  top:490px;
+  color: #666565;
+}
+
+.div9 .p-p{
+    position: absolute;
+    left: 925px;
+    top:515px;
+    color: #878686;
+}
+
+.div9 .pp{
+  position: absolute;
+  left: 910px;
+  top:535px;
+  color: #878686;
+}
+
+.div10 img{
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+.div10 p{
+  position: absolute;
+  color:#ffffff;
+  top:370px;
+  left: 310px;
+}
+
+.div10 h2{
+  position: absolute;
+  color:#ffffff;
+  top:395px;
+  left: 310px;
+}
+
+.div11{
+  position: absolute;
+  top: 610px;
+  left: 610px;
+}
+
+.div11 h4{
+  position:absolute ;
+  color: #666565;
+  top: 220px;
+  left: 35px;
+}
+
+.div11 p{
+  position:absolute ;
+  color: #878686;
+  top: 260px;
+  left: 35px;
+}
+
+.div11 .lp{
+  position:absolute ;
+  color: #878686;
+  top: 297px;
+  left: 68px;
+}
+
+.div12 img{
+  position: absolute;
+  top: 700px;
+  left: 280px;
+}
+
+.div12 .fa-angle-up{
+  position: absolute;
+  top: 830px;
+  left: 500px;
+}
+
+.div13 img{
+  position: absolute;
+  top: 720px;
+  left: 1050px;
+}
+
+.div13 .fa-angle-up{
+  position: absolute;
+  top: 830px;
+  left: 950px;
+}
+
+.footer{
+  position : relative;
+  background-image: url("ppp.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:80vh;
+  overflow: hidden;
+}
+
+.fsec1 img{
+  position:absolute;
+ top: 150px;
+ left: 765px;
+}
+
+.fsec2{
+  position:relative;
+}
+
+.fsec2 button{
+  position:absolute ;
+ background-color: white;
+ border: none;
+ width: 130px;
+ height: 50px;
+ border-radius: 10px;
+ top: 400px;
+ left: 170px;
+}
+
+.fsec2 img{
+  position:absolute;
+  top: 13px;
+  left: 10px;
+}
+
+.fsec2 h4 {
+  padding-left: 7px;
+  color: rgb(232, 13, 181);
+}
+
+.fsec2 p {
+  padding-left: 15px;
+}
+
+.fsec3 button{
+  position:absolute ;
+ background-color: white;
+ border: none;
+ width: 135px;
+ height: 50px;
+ border-radius: 10px;
+ top: 400px;
+ left: 350px;
+}
+
+.fsec3 img{
+  position:absolute;
+  top: 15px;
+  left: 10px;
+}
+
+.fsec3 h4 {
+  padding-left: 5px;
+  color: rgb(232, 13, 181);
+}
+
+.fsec3 p {
+  padding-left: 15px;
+}
+
+.ppp{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.ppp .iimg{
+  position: absolute;
+  top:480px;
+  left: 170px;
+}
+
+.ppp .iimg1{
+  position: absolute;
+  top:480px;
+  left: 210px;
+}
+
+.ppp .iimg2{
+  position: absolute;
+  top:480px;
+  left: 250px;
+}
+
+
+
+.list {
+  position: relative;
+}
+
+.list ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list .all {
+  position: absolute;
+  padding: 10px; 
+  top: 530px;
+  left:160px ;
+  color:white;
+}
+
+.list .all1 {
+  position: absolute;
+  padding: 10px; 
+  top: 530px;
+  left:240px ;
+  color:white;
+}
+
+.list .all2 {
+  position: absolute;
+  padding: 10px; 
+  top: 530px;
+  left:330px ;
+  color:white;
+}
+
+.list .all3 {
+  position: absolute;
+  padding: 10px; 
+  top: 530px;
+  left:430px ;
+  color:white;
+}
